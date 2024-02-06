@@ -11,3 +11,236 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main-color{
+  color: #1ABC9C;
+}
+
+.navbar{
+  background-color: #2C3E50;
+  color: white;
+}
+
+#home{
+  background-color: #1ABC9C;
+  
+}
+
+#home img{
+  background-color: #1ABC9C;
+}
+
+#home .home-content i{
+  position: relative;
+}
+
+#home .home-content i::after{
+  content: "";
+  position: absolute;
+  border: solid white 2px;
+  height: 2px;
+  width: 80px;
+  top: 50%;
+  transform: translateX(20px);
+
+}
+
+#home .home-content h2{
+  position: relative;
+}
+
+#home .home-content h2::before{
+  content: "";
+  position: absolute;
+  border: solid white 2px;
+  height: 2px;
+  width: 80px;
+  top: 150%;
+  margin-left: 20px;
+  transform: translateX(20px);
+}
+
+
+#about{
+  background-color: #1ABC9C;
+}
+
+
+
+#about .about-content i{
+  position: relative;
+}
+
+#about .about-content i::after{
+  content: "";
+  position: absolute;
+  border: solid white 2px;
+  height: 2px;
+  width: 80px;
+  top: 50%;
+  transform: translateX(20px);
+
+}
+
+#about .about-content h2{
+  position: relative;
+}
+
+#about .about-content h2::before{
+  content: "";
+  position: absolute;
+  border: solid white 2px;
+  height: 2px;
+  width: 80px;
+  top: 150%;
+  margin-left: 20px;
+  transform: translateX(20px);
+}
+
+#footer{
+  background-color:#2C3E50;
+}
+
+#footer .icons .fa-facebook-f{
+
+  width: 25px;
+  height: 25px;
+  border: solid 1px white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#footer .icons .fa-twitter{
+
+   width: 30px;
+   height: 30px;
+   border: solid 1px white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+ }
+
+ #footer .icons .fa-linkedin-in{
+
+   width: 25px;
+   height: 25px;
+   border: solid 1px white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+ }
+ #footer .icons .fa-globe{
+
+   width: 25px;
+   height: 25px;
+   border: solid 1px white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+ }
+
+ #footer .end{
+  background-color:#1A252F;
+  text-align: center;
+  height: 50px;
+  transform: translateY(20px);
+ }
+
+
+#portfolio{
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+
+
+#portfolio .portfolio-content i{
+  position: relative;
+}
+
+#portfolio .portfolio-content i::after{
+  content: "";
+  position: absolute;
+  border: solid #2C3E50 2px;
+  height: 2px;
+  width: 100px;
+  top: 50%;
+  transform: translateX(10px);
+
+}
+
+#portfolio .portfolio-content h2{
+  position: relative;
+}
+
+#portfolio .portfolio-content h2::before{
+  content: "";
+  position: absolute;
+  border: solid #2C3E50 2px;
+  height: 2px;
+  width: 100px;
+  top: 150%;
+  margin-left: 20px;
+  transform: translateX(40px);
+}
+
+
+
+/* ********************************************** */
+
+
+
+
+#final{
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+
+
+#final .final-content i{
+  position: relative;
+}
+
+#final .final-content i::after{
+  content: "";
+  position: absolute;
+  border: solid #2C3E50 2px;
+  height: 2px;
+  width: 100px;
+  top: 50%;
+  transform: translateX(10px);
+
+}
+
+#final .final-content h2{
+  position: relative;
+}
+
+#final .final-content h2::before{
+  content: "";
+  position: absolute;
+  border: solid #2C3E50 2px;
+  height: 2px;
+  width: 100px;
+  top: 150%;
+  margin-left: 20px;
+  transform: translateX(-5px);
+}
+
+
+#final form button {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+
